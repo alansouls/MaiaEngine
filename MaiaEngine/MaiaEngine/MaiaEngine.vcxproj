@@ -84,12 +84,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\MaiaEngine\Logger.h" />
     <ClInclude Include="src\MaiaEngine\EntryPoint.h" />
     <ClInclude Include="src\MEngine.h" />
     <ClInclude Include="src\MaiaEngine\Core.h" />
     <ClInclude Include="src\MaiaEngine\Application.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\MaiaEngine\Logger.cpp" />
     <ClCompile Include="src\MaiaEngine\Application.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
